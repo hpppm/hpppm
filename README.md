@@ -4,6 +4,7 @@ Cybersecurity student (Gannon University)
 
 ## Labs
 - [Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)
+- [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)
 - Other Labs Coming Soon!
 
 ## Skills
