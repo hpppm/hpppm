@@ -3,7 +3,8 @@
 Cybersecurity student (Gannon University) 
 
 ## Labs
-- (coming soon)
+- [Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)
+- Other Labs Coming Soon!
 
 ## Skills
 - SIEM: Splunk, ELK 
