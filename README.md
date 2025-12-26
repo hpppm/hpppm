@@ -7,7 +7,7 @@ Cybersecurity student (Gannon University)
 
 ## Skills
 - SIEM: Splunk, ELK 
-- Security tools: Nessus, Burp Suite, Metasploit, OWASP ZAP :contentReference[oaicite:3]{index=3}
+- Security tools: Nessus, Burp Suite, Metasploit, OWASP ZAP 
 - Cloud: AWS, Azure 
 - Scripting: Python, Bash, SQL 
 
