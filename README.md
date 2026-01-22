@@ -53,8 +53,10 @@ When I'm not in class, you'll find me:
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0078D4?style=flat-square&logo=nmap&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-43853D?style=flat-square&logo=letsencrypt&logoColor=white)
 
 - Web application penetration testing (SQL injection, XSS, CSRF, auth bypass)
+- Cryptographic protocols and encryption techniques
 - Network enumeration and vulnerability assessment
 - Traffic analysis and packet inspection
 - Exploit development fundamentals
@@ -66,10 +68,13 @@ When I'm not in class, you'll find me:
 <br>
 
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![MobaXterm](https://img.shields.io/badge/MobaXterm-00A2E8?style=flat-square&logo=windows-terminal&logoColor=white)
 
-- Azure security services (NSGs, Firewall, Security Center)
+- Azure & AWS security services and cloud infrastructure
+- Remote system management with MobaXterm
 - Linux/Windows system administration and hardening
 - Network security architecture and segmentation
 
@@ -129,8 +134,7 @@ Currently working on projects involving web app pentesting, threat hunting, and 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hpppm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hpppm&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=hpppm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="495">
 </div>
 
 <p align="center"><i>📝 Note: Much of my work is in private repositories (including senior design project), so stats don't reflect full activity.</i></p>
