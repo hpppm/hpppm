@@ -24,7 +24,6 @@ When I'm not in class, you'll find me:
 - 🤖 Building AI agents to automate security tasks
 - ☁️ Exploring cloud security in Azure environments
 - 📚 Learning about compliance frameworks and risk management
-- 🌐 Developing my portfolio at [revclear.tech](https://revclear.tech)
 
 ---
 
