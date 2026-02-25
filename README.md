@@ -33,11 +33,11 @@ When I’m not in class, you’ll find me:
 
 > *Active projects as of early 2026*
 
-|Project                                                                            |Status              |Stack                       |
-|-----------------------------------------------------------------------------------|--------------------|----------------------------|
-|🏥 [RevClear — AI Medical Billing System](https://revclear.tech)                    |🟡 Active Development|Python, FastAPI, AWS, Ollama|
-|🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)   |🟢 Active            |Python, Claude API          |
-|☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)|✅ Completed         |Azure                       |
+|Project                                                                            |Status              |Stack                                          |
+|-----------------------------------------------------------------------------------|--------------------|-----------------------------------------------|
+|🏥 [RevClear — AI Medical Billing System](https://revclear.tech)                    |🟡 Active Development|React, TypeScript, Express, Python, Docker, AWS|
+|🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)   |🟢 Active            |Python, Claude API                             |
+|☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)|✅ Completed         |Azure                                          |
 
 -----
 
@@ -45,8 +45,12 @@ When I’m not in class, you’ll find me:
 
 ### 🏥 [RevClear — AI Medical Billing System](https://revclear.tech) *(Senior Capstone)*
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
@@ -55,8 +59,11 @@ My senior capstone project at Gannon University — a **HIPAA-compliant AI-power
 
 **Key Features:**
 
+- ⚛️ **React + TypeScript** frontend for the medical billing interface
+- 🔌 **Express.js API** (TypeScript) handling core application logic and routing
 - 🎙️ Medical transcription using **Whisper** (whisper-tiny) for speech-to-text
 - 🤖 AI-driven CPT/ICD medical code suggestions via **Ollama** (qwen2.5:3b) on a Python FastAPI server
+- 🐳 **Dockerized** services for consistent deployment across environments
 - 🏥 EDI claims formatting and billing workflow automation
 - 🔒 HIPAA compliance: audit logging, httpOnly cookies, security error handling
 - ☁️ AWS infrastructure with secure API design
@@ -164,14 +171,18 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 
 - Security automation and scripting
-- REST API development (FastAPI, Flask)
+- REST API development (FastAPI, Flask, Express)
+- Frontend development with React + TypeScript
 - AI agent design and workflow engineering
 - Local LLM integration with Ollama and LM Studio
 - Git workflow management and version control
@@ -195,11 +206,11 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hpppm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="495">
+  <img src="https://github-readme-stats.vercel.app/api?username=hpppm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" width="495">
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hpppm&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="495">
+  <img src="https://streak-stats.demolab.com/?user=hpppm&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="495">
 </div>
 
 <div align="center">
