@@ -2,7 +2,7 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Cybersecurity+Student;Penetration+Testing+Enthusiast;AI+Security+Automation;GRC+%26+Compliance+Explorer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Cybersecurity+Student+%40+Gannon+University;Penetration+Testing+Enthusiast;AI+Security+Automation+Builder;GRC+%26+Compliance+Explorer;Graduating+May+2026)](https://git.io/typing-svg)
 
 </div>
 
@@ -10,6 +10,7 @@
   <a href="mailto:Alqoud001@gannon.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/aseel-yg"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/hpppm"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://revclear.tech"><img src="https://img.shields.io/badge/Portfolio-revclear.tech-2E9EF7?style=for-the-badge&logo=firefox-browser&logoColor=white" /></a>
 </p>
 
 ---
@@ -23,6 +24,68 @@ When I'm not in class, you'll find me:
 - 🤖 Building AI agents to automate security tasks
 - ☁️ Exploring cloud security in Azure environments
 - 📚 Learning about compliance frameworks and risk management
+- 🌐 Developing my portfolio at [revclear.tech](https://revclear.tech)
+
+---
+
+## 🔨 What I'm Currently Building
+
+> *Active projects as of early 2026*
+
+| Project | Status | Stack |
+|---|---|---|
+| 🌐 [Portfolio Website (revclear.tech)](https://github.com/hpppm/hpppm.github.io) | 🟡 Active Development | Web |
+| 🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design) | 🟢 Active | Python, Claude API |
+| ☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security) | ✅ Completed | Azure |
+| 🏥 Senior Design: AI Medical Billing System | 🟡 In Progress (Private) | Python, AI/ML |
+
+---
+
+## 🚀 Projects
+
+### 🌐 [Portfolio Website — revclear.tech](https://github.com/hpppm/hpppm.github.io)
+![Status](https://img.shields.io/badge/Status-Active%20Development-blue?style=flat-square)
+
+My personal cybersecurity portfolio hosted at **[revclear.tech](https://revclear.tech)**. Custom domain served via GitHub Pages — showcasing projects, skills, and professional work.
+
+---
+
+### 🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic-Claude%20API-4B275F?style=flat-square&logo=anthropic&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+
+A modular **Claude AI agent** built with a skills architecture, persistent memory, and security-first principles. Demonstrates production-grade AI patterns: progressive context loading, structured prompts, PowerShell skill integration, and audit logging.
+
+**Key Features:**
+- 🧩 Modular skills system (self-contained Python modules)
+- 🧠 Short-term memory with automatic pruning
+- 🔒 Security-first design: input validation, least privilege, no sensitive data logging
+- ⚡ PowerShell skill with command allowlist and output sanitization
+
+---
+
+### ☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)
+![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+Hands-on Azure security lab implementing enterprise-grade network controls from scratch.
+
+**What I Built:**
+- 🏗️ Virtual networks and subnet segmentation
+- 🔥 Azure Firewall with custom policy rules
+- 🛣️ User-defined routes (UDR) for traffic control
+- ✅ Verified allowed/blocked outbound traffic behavior
+- 📄 Full documentation with screenshots and evidence
+
+---
+
+### 🏥 Senior Capstone: AI Medical Billing System *(Private Repository)*
+![AI](https://img.shields.io/badge/AI-Powered-blueviolet?style=flat-square&logo=openai&logoColor=white)
+![Healthcare](https://img.shields.io/badge/Domain-Healthcare-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
+
+My senior capstone project at Gannon University — an **AI-powered medical billing automation system** combining healthcare compliance (HIPAA), intelligent data processing, and workflow automation.
 
 ---
 
@@ -99,7 +162,7 @@ When I'm not in class, you'll find me:
 <summary><b>📋 GRC & Compliance</b></summary>
 <br>
 
-- Understanding of compliance frameworks (NIST, ISO 27001 concepts)
+- Understanding of compliance frameworks (NIST, ISO 27001, HIPAA concepts)
 - Risk assessment and security policy fundamentals
 - Security monitoring and incident response basics
 
@@ -107,34 +170,18 @@ When I'm not in class, you'll find me:
 
 ---
 
-## 🔬 Lab Projects
-
-### 🤖 [Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-Building intelligent AI agents for security automation - from instruction engineering to workflow optimization. Exploring how LLMs can assist in security operations.
-
-### ☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
-
-Hands-on Azure security implementation: NSGs, Virtual Networks, firewalls, and cloud-native security controls.
-
-### 🏥 Senior Design Project (Private Repository)
-![AI](https://img.shields.io/badge/AI-Powered-blueviolet?style=flat-square&logo=openai&logoColor=white)
-![Healthcare](https://img.shields.io/badge/Healthcare-System-green?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJjNS41MiAwIDEwIDQuNDggMTAgMTBzLTQuNDggMTAtMTAgMTAtMTAtNC40OC0xMC0xMCA0LjQ4LTEwIDEwLTEwem0wIDE4YzQuNDIgMCA4LTMuNTggOC04cy0zLjU4LTgtOC04LTggMy41OC04IDggMy41OCA4IDggOHptLTEtMTNoMnY0aDR2MmgtNHY0aC0ydi00SDd2LTJoNHYtNHoiLz48L3N2Zz4=)
-
-Developing an **AI-powered medical billing system** as my senior capstone project - combining healthcare compliance, automation, and artificial intelligence.
-
-### 🚀 More Coming Soon!
-Currently working on projects involving web app pentesting, threat hunting, and security orchestration.
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=hpppm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="495">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hpppm&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="495">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hpppm&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="800">
 </div>
 
 <p align="center"><i>📝 Note: Much of my work is in private repositories (including senior design project), so stats don't reflect full activity.</i></p>
@@ -146,9 +193,10 @@ Currently working on projects involving web app pentesting, threat hunting, and 
 ```python
 current_focus = {
     "penetration_testing": ["Web app security", "CTF challenges", "OWASP Top 10"],
-    "grc": ["Risk assessment", "Compliance frameworks", "Security policies"],
+    "grc": ["Risk assessment", "Compliance frameworks", "HIPAA / healthcare security"],
     "automation": ["AI agent workflows", "Security orchestration", "Python scripting"],
-    "cloud_security": ["Azure security", "Identity management", "Cloud compliance"]
+    "cloud_security": ["Azure security", "Identity management", "Cloud compliance"],
+    "portfolio": ["Web development", "Personal branding", "revclear.tech"]
 }
 ```
 
@@ -161,7 +209,8 @@ I'm always open to connecting with fellow security enthusiasts, discussing proje
 <p align="center">
   <a href="mailto:Alqoud001@gannon.edu">📧 Email Me</a> •
   <a href="https://www.linkedin.com/in/aseel-yg">💼 LinkedIn</a> •
-  <a href="https://github.com/hpppm">🐙 GitHub</a>
+  <a href="https://github.com/hpppm">🐙 GitHub</a> •
+  <a href="https://revclear.tech">🌐 Portfolio</a>
 </p>
 
 ---
@@ -172,4 +221,4 @@ I'm always open to connecting with fellow security enthusiasts, discussing proje
 
 <div align="center">
   <i>"Security is not a product, but a process." - Bruce Schneier</i>
-</div> 
+</div>
