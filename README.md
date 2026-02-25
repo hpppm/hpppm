@@ -1,7 +1,7 @@
-# Hi, I'm Aseel 👋
+# Hi, I’m Aseel 👋
 
 <div align="center">
-  
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Cybersecurity+Student+%40+Gannon+University;Penetration+Testing+Enthusiast;AI+Security+Automation+Builder;GRC+%26+Compliance+Explorer;Graduating+May+2026)](https://git.io/typing-svg)
 
 </div>
@@ -10,46 +10,63 @@
   <a href="mailto:Alqoud001@gannon.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/aseel-yg"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/hpppm"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://revclear.tech"><img src="https://img.shields.io/badge/Portfolio-revclear.tech-2E9EF7?style=for-the-badge&logo=firefox-browser&logoColor=white" /></a>
+  <a href="https://revclear.tech"><img src="https://img.shields.io/badge/Project-revclear.tech-2E9EF7?style=for-the-badge&logo=firefox-browser&logoColor=white" /></a>
 </p>
 
----
+-----
 
 ## 🎓 About Me
 
-I'm a cybersecurity student at **Gannon University** (graduating May 2026), passionate about breaking things to understand how to protect them better. My interests lie at the intersection of **penetration testing**, **governance, risk, and compliance (GRC)**, and **AI-powered security automation**.
+I’m a cybersecurity student at **Gannon University** (graduating May 2026), passionate about breaking things to understand how to protect them better. My interests lie at the intersection of **penetration testing**, **governance, risk, and compliance (GRC)**, and **AI-powered security automation**.
 
-When I'm not in class, you'll find me:
-- 🔍 Testing web apps for vulnerabilities
+When I’m not in class, you’ll find me:
+
+- 🔍 Testing web apps for vulnerabilities and doing bug bounty hunting
 - 🤖 Building AI agents to automate security tasks
-- ☁️ Exploring cloud security in Azure environments
+- ☁️ Exploring cloud security in Azure and AWS environments
+- 🐧 Running Kali Linux for CTFs and hands-on pentesting practice
 - 📚 Learning about compliance frameworks and risk management
 
----
+-----
 
-## 🔨 What I'm Currently Building
+## 🔨 What I’m Currently Building
 
 > *Active projects as of early 2026*
 
-| Project | Status | Stack |
-|---|---|---|
-| 🟡 Active Development | Web |
-| 🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design) | 🟢 Active | Python, Claude API |
-| ☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security) | ✅ Completed | Azure |
-| 🏥 Senior Design: AI Medical Billing System | 🟡 In Progress (Private) | Python, AI/ML |
+|Project                                                                            |Status              |Stack                       |
+|-----------------------------------------------------------------------------------|--------------------|----------------------------|
+|🏥 [RevClear — AI Medical Billing System](https://revclear.tech)                    |🟡 Active Development|Python, FastAPI, AWS, Ollama|
+|🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)   |🟢 Active            |Python, Claude API          |
+|☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)|✅ Completed         |Azure                       |
 
----
+-----
 
 ## 🚀 Projects
 
-### 🌐 [Portfolio Website — revclear.tech](https://github.com/hpppm/hpppm.github.io)
-![Status](https://img.shields.io/badge/Status-Active%20Development-blue?style=flat-square)
+### 🏥 [RevClear — AI Medical Billing System](https://revclear.tech) *(Senior Capstone)*
 
-My personal cybersecurity portfolio hosted at **[revclear.tech](https://revclear.tech)**. Custom domain served via GitHub Pages — showcasing projects, skills, and professional work.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
 
----
+My senior capstone project at Gannon University — a **HIPAA-compliant AI-powered medical transcription and billing automation system**. Combines healthcare compliance, intelligent data processing, and workflow automation. I serve as **team lead**, responsible for infrastructure, AWS integration, and security architecture.
+
+**Key Features:**
+
+- 🎙️ Medical transcription using **Whisper** (whisper-tiny) for speech-to-text
+- 🤖 AI-driven CPT/ICD medical code suggestions via **Ollama** (qwen2.5:3b) on a Python FastAPI server
+- 🏥 EDI claims formatting and billing workflow automation
+- 🔒 HIPAA compliance: audit logging, httpOnly cookies, security error handling
+- ☁️ AWS infrastructure with secure API design
+
+> *Repository is private. Live project: [revclear.tech](https://revclear.tech)*
+
+-----
 
 ### 🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Claude](https://img.shields.io/badge/Anthropic-Claude%20API-4B275F?style=flat-square&logo=anthropic&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
@@ -57,52 +74,49 @@ My personal cybersecurity portfolio hosted at **[revclear.tech](https://revclear
 A modular **Claude AI agent** built with a skills architecture, persistent memory, and security-first principles. Demonstrates production-grade AI patterns: progressive context loading, structured prompts, PowerShell skill integration, and audit logging.
 
 **Key Features:**
+
 - 🧩 Modular skills system (self-contained Python modules)
 - 🧠 Short-term memory with automatic pruning
 - 🔒 Security-first design: input validation, least privilege, no sensitive data logging
 - ⚡ PowerShell skill with command allowlist and output sanitization
 
----
+-----
 
 ### ☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)
+
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
 
 Hands-on Azure security lab implementing enterprise-grade network controls from scratch.
 
 **What I Built:**
+
 - 🏗️ Virtual networks and subnet segmentation
 - 🔥 Azure Firewall with custom policy rules
 - 🛣️ User-defined routes (UDR) for traffic control
 - ✅ Verified allowed/blocked outbound traffic behavior
+- 📊 RBAC vs. ABAC comparison using Azure Key Vault (from CYSEC_308 Cloud Security coursework)
 - 📄 Full documentation with screenshots and evidence
 
----
-
-### 🏥 Senior Capstone: AI Medical Billing System *(Private Repository)*
-![AI](https://img.shields.io/badge/AI-Powered-blueviolet?style=flat-square&logo=openai&logoColor=white)
-![Healthcare](https://img.shields.io/badge/Domain-Healthcare-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
-
-My senior capstone project at Gannon University — an **AI-powered medical billing automation system** combining healthcare compliance (HIPAA), intelligent data processing, and workflow automation.
-
----
+-----
 
 ## 🏆 Certifications
 
 <div align="center">
 
 ### ✅ Earned
+
 ![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white)
 ![eJPT](https://img.shields.io/badge/INE-eJPT-4B275F?style=for-the-badge&logo=hackaday&logoColor=white)
 
 ### 🎯 In Progress
+
 ![CRTA](https://img.shields.io/badge/Pentester%20Academy-CRTA-orange?style=for-the-badge&logo=security&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-AI%20Solution%20Architect-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 </div>
 
----
+-----
 
 ## 🛠️ Skills & Technologies
 
@@ -115,13 +129,15 @@ My senior capstone project at Gannon University — an **AI-powered medical bill
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0078D4?style=flat-square&logo=nmap&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Cryptography](https://img.shields.io/badge/Cryptography-43853D?style=flat-square&logo=letsencrypt&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 
 - Web application penetration testing (SQL injection, XSS, CSRF, auth bypass)
-- Cryptographic protocols and encryption techniques
+- Bug bounty hunting and vulnerability research
+- Google dorking and OSINT reconnaissance techniques
 - Network enumeration and vulnerability assessment
 - Traffic analysis and packet inspection
 - Exploit development fundamentals
+- Pentesting lab environments: Docker-based Kali, WSL2, VirtualBox VMs
 
 </details>
 
@@ -131,14 +147,15 @@ My senior capstone project at Gannon University — an **AI-powered medical bill
 
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
-![MobaXterm](https://img.shields.io/badge/MobaXterm-00A2E8?style=flat-square&logo=windows-terminal&logoColor=white)
 
 - Azure & AWS security services and cloud infrastructure
-- Remote system management with MobaXterm
+- Docker container management and WSL2 environments
 - Linux/Windows system administration and hardening
 - Network security architecture and segmentation
+- RBAC vs. ABAC identity and access management
 
 </details>
 
@@ -147,13 +164,17 @@ My senior capstone project at Gannon University — an **AI-powered medical bill
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 
 - Security automation and scripting
-- API integration and data parsing
+- REST API development (FastAPI, Flask)
 - AI agent design and workflow engineering
+- Local LLM integration with Ollama and LM Studio
+- Git workflow management and version control
 
 </details>
 
@@ -161,13 +182,15 @@ My senior capstone project at Gannon University — an **AI-powered medical bill
 <summary><b>📋 GRC & Compliance</b></summary>
 <br>
 
-- Understanding of compliance frameworks (NIST, ISO 27001, HIPAA concepts)
+- HIPAA compliance implementation (audit logging, access controls, secure data handling)
+- Compliance frameworks: NIST, ISO 27001, HIPAA
 - Risk assessment and security policy fundamentals
 - Security monitoring and incident response basics
+- Cloud compliance and identity governance
 
 </details>
 
----
+-----
 
 ## 📊 GitHub Stats
 
@@ -183,36 +206,36 @@ My senior capstone project at Gannon University — an **AI-powered medical bill
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=hpppm&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="800">
 </div>
 
-<p align="center"><i>📝 Note: Much of my work is in private repositories (including senior design project), so stats don't reflect full activity.</i></p>
+<p align="center"><i>📝 Note: Much of my work is in private repositories (including RevClear senior design), so stats don't reflect full activity.</i></p>
 
----
+-----
 
-## 🎯 What I'm Currently Learning
+## 🎯 What I’m Currently Learning
 
 ```python
 current_focus = {
-    "penetration_testing": ["Web app security", "CTF challenges", "OWASP Top 10"],
+    "penetration_testing": ["Web app security", "CTF challenges", "OWASP Top 10", "Bug bounty hunting"],
     "grc": ["Risk assessment", "Compliance frameworks", "HIPAA / healthcare security"],
     "automation": ["AI agent workflows", "Security orchestration", "Python scripting"],
-    "cloud_security": ["Azure security", "Identity management", "Cloud compliance"],
-    "portfolio": ["Web development", "Personal branding", "revclear.tech"]
+    "cloud_security": ["AWS security", "Azure security", "Identity management", "Cloud compliance"],
+    "ai_ml": ["Local LLMs with Ollama", "Medical AI pipelines", "FastAPI + AI integration"],
 }
 ```
 
----
+-----
 
-## 📫 Let's Connect!
+## 📫 Let’s Connect!
 
-I'm always open to connecting with fellow security enthusiasts, discussing projects, or just chatting about cybersecurity!
+I’m always open to connecting with fellow security enthusiasts, discussing projects, or just chatting about cybersecurity!
 
 <p align="center">
   <a href="mailto:Alqoud001@gannon.edu">📧 Email Me</a> •
   <a href="https://www.linkedin.com/in/aseel-yg">💼 LinkedIn</a> •
   <a href="https://github.com/hpppm">🐙 GitHub</a> •
-  <a href="https://revclear.tech">🌐 Portfolio</a>
+  <a href="https://revclear.tech">🏥 RevClear Project</a>
 </p>
 
----
+-----
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=hpppm&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views" />
