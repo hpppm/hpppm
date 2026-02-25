@@ -33,7 +33,7 @@ When I'm not in class, you'll find me:
 
 | Project | Status | Stack |
 |---|---|---|
-| 🌐 [Portfolio Website (revclear.tech)](https://github.com/hpppm/hpppm.github.io) | 🟡 Active Development | Web |
+| 🟡 Active Development | Web |
 | 🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design) | 🟢 Active | Python, Claude API |
 | ☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security) | ✅ Completed | Azure |
 | 🏥 Senior Design: AI Medical Billing System | 🟡 In Progress (Private) | Python, AI/ML |
