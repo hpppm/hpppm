@@ -1,4 +1,4 @@
-# Hi, I’m Aseel 👋
+# Hi, I'm Aseel 👋
 
 <div align="center">
 
@@ -17,9 +17,9 @@
 
 ## 🎓 About Me
 
-I’m a cybersecurity student at **Gannon University** (graduating May 2026), passionate about breaking things to understand how to protect them better. My interests lie at the intersection of **penetration testing**, **governance, risk, and compliance (GRC)**, and **AI-powered security automation**.
+I'm a cybersecurity student at **Gannon University** (graduating May 2026), passionate about breaking things to understand how to protect them better. My interests lie at the intersection of **penetration testing**, **governance, risk, and compliance (GRC)**, and **AI-powered security automation**.
 
-When I’m not in class, you’ll find me:
+When I'm not in class, you'll find me:
 
 - 🔍 Testing web apps for vulnerabilities and doing bug bounty hunting
 - 🤖 Building AI agents to automate security tasks
@@ -29,13 +29,13 @@ When I’m not in class, you’ll find me:
 
 -----
 
-## 🔨 What I’m Currently Building
+## 🔨 What I'm Currently Building
 
 > *Active projects as of early 2026*
 
 |Project                                                                            |Status              |Stack                                          |
 |-----------------------------------------------------------------------------------|--------------------|-----------------------------------------------|
-|🏥 [RevClear — AI Medical Billing System](https://revclear.tech)                    |🟡 Active Development|React, TypeScript, Express, Python, Docker, AWS|
+|🏥 [RevClear — AI Medical Billing System](https://revclear.tech)                    |🟡 Active Development|React, TypeScript, Express, PostgreSQL, Docker, AWS|
 |🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)   |🟢 Active            |Python, Claude API                             |
 |☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)|✅ Completed         |Azure                                          |
 
@@ -48,8 +48,7 @@ When I’m not in class, you’ll find me:
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green?style=flat-square)
@@ -61,12 +60,20 @@ My senior capstone project at Gannon University — a **HIPAA-compliant AI-power
 
 - ⚛️ **React + TypeScript** frontend for the medical billing interface
 - 🔌 **Express.js API** (TypeScript) handling core application logic and routing
-- 🎙️ Medical transcription using **Whisper** (whisper-tiny) for speech-to-text
-- 🤖 AI-driven CPT/ICD medical code suggestions via **Ollama** (qwen2.5:3b) on a Python FastAPI server
-- 🐳 **Dockerized** services for consistent deployment across environments
+- 🗄️ **PostgreSQL** (AWS RDS, encrypted, deletion protection enabled) as the primary database
+- 🔐 **AWS Cognito** for authentication — TOTP + Email OTP MFA, 1-hour token expiry
 - 🏥 EDI claims formatting and billing workflow automation
-- 🔒 HIPAA compliance: audit logging, httpOnly cookies, security error handling
-- ☁️ AWS infrastructure with secure API design
+- 🔒 HIPAA compliance: audit logging, httpOnly cookies, security error handling, OWASP + Semgrep static analysis
+- 🐳 **Dockerized** services for consistent deployment across environments
+
+**AWS Production Controls (verified):**
+
+- 🔑 KMS customer-managed key with annual auto-rotation (`mrk-8c57ed...`)
+- 🪣 S3: public access blocked, versioning enabled, KMS-only upload policy, access logging active
+- 🛤️ CloudTrail multi-region trail (`RevClearTrail`) with KMS encryption + log file validation
+- 📊 CloudWatch: 7-year log retention (2557 days)
+- 🌐 VPC flow logs active
+- 🗄️ RDS: encrypted at rest, deletion protection enabled
 
 > *Repository is private. Live project: [revclear.tech](https://revclear.tech)*
 
@@ -140,6 +147,7 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 
 - Web application penetration testing (SQL injection, XSS, CSRF, auth bypass)
 - Bug bounty hunting and vulnerability research
+- Static analysis with Semgrep and CodeQL (CI/CD integrated)
 - Google dorking and OSINT reconnaissance techniques
 - Network enumeration and vulnerability assessment
 - Traffic analysis and packet inspection
@@ -158,6 +166,11 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 
+- AWS KMS key management with auto-rotation policies
+- CloudTrail multi-region audit logging and log file validation
+- RDS encryption, deletion protection, and secure configuration
+- Cognito MFA configuration (TOTP + Email OTP)
+- S3 security hardening (public access policies, KMS upload enforcement, access logging)
 - Azure & AWS security services and cloud infrastructure
 - Docker container management and WSL2 environments
 - Linux/Windows system administration and hardening
@@ -173,7 +186,6 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
@@ -181,11 +193,11 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 
 - Security automation and scripting
-- REST API development (FastAPI, Flask, Express)
+- REST API development (Express/TypeScript, Flask)
 - Frontend development with React + TypeScript
 - AI agent design and workflow engineering
-- Local LLM integration with Ollama and LM Studio
-- Git workflow management and version control
+- Git workflow management, branching strategies, and PR review
+- GitHub Actions CI/CD (secret scanning, dependency auditing, Semgrep SAST)
 
 </details>
 
@@ -193,7 +205,7 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 <summary><b>📋 GRC & Compliance</b></summary>
 <br>
 
-- HIPAA compliance implementation (audit logging, access controls, secure data handling)
+- HIPAA Security Rule implementation with AWS evidence (CloudTrail, KMS rotation, RDS encryption, Cognito MFA)
 - Compliance frameworks: NIST, ISO 27001, HIPAA
 - Risk assessment and security policy fundamentals
 - Security monitoring and incident response basics
@@ -221,23 +233,22 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 
 -----
 
-## 🎯 What I’m Currently Learning
+## 🎯 What I'm Currently Learning
 
 ```python
 current_focus = {
     "penetration_testing": ["Web app security", "CTF challenges", "OWASP Top 10", "Bug bounty hunting"],
-    "grc": ["Risk assessment", "Compliance frameworks", "HIPAA / healthcare security"],
+    "grc": ["Risk assessment", "Compliance frameworks", "HIPAA Security Rule / AWS evidence collection"],
     "automation": ["AI agent workflows", "Security orchestration", "Python scripting"],
-    "cloud_security": ["AWS security", "Azure security", "Identity management", "Cloud compliance"],
-    "ai_ml": ["Local LLMs with Ollama", "Medical AI pipelines", "FastAPI + AI integration"],
+    "cloud_security": ["AWS KMS & CloudTrail", "Cognito MFA", "RDS encryption", "Cloud compliance"],
 }
 ```
 
 -----
 
-## 📫 Let’s Connect!
+## 📫 Let's Connect!
 
-I’m always open to connecting with fellow security enthusiasts, discussing projects, or just chatting about cybersecurity!
+I'm always open to connecting with fellow security enthusiasts, discussing projects, or just chatting about cybersecurity!
 
 <p align="center">
   <a href="mailto:Alqoud001@gannon.edu">📧 Email Me</a> •
