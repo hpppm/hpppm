@@ -33,11 +33,12 @@ When I'm not in class, you'll find me:
 
 > *Active projects as of early 2026*
 
-|Project                                                                            |Status              |Stack                                          |
-|-----------------------------------------------------------------------------------|--------------------|-----------------------------------------------|
-|🏥 [RevClear — AI Medical Billing System](https://revclear.tech)                    |🟡 Active Development|React, TypeScript, Express, PostgreSQL, Docker, AWS|
-|🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design)   |🟢 Active            |Python, Claude API                             |
-|☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security)|✅ Completed         |Azure                                          |
+| Project | Status | Stack |
+|---------|--------|-------|
+| 🏥 [RevClear — AI Medical Billing System](https://revclear.tech) | 🟡 Active Development | Next.js, TypeScript, Express, PostgreSQL, Docker, AWS, Railway |
+| 🤖 [AI Agent Skills Design Lab](https://github.com/hpppm/lab-agent-skills-design) | 🟢 Active | Python, Claude API |
+| 🖥️ Self-Hosted AI Stack | 🟢 Active | Ollama, Open WebUI, DigitalOcean, Telegram |
+| ☁️ [Azure Network Security Lab](https://github.com/hpppm/lab-azure-network-security) | ✅ Completed | Azure |
 
 -----
 
@@ -45,12 +46,14 @@ When I'm not in class, you'll find me:
 
 ### 🏥 [RevClear — AI Medical Billing System](https://revclear.tech) *(Senior Capstone)*
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white)
 ![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
 
@@ -58,13 +61,16 @@ My senior capstone project at Gannon University — a **HIPAA-compliant AI-power
 
 **Key Features:**
 
-- ⚛️ **React + TypeScript** frontend for the medical billing interface
+- ⚛️ **Next.js 16 + TypeScript** frontend for the medical billing interface
 - 🔌 **Express.js API** (TypeScript) handling core application logic and routing
 - 🗄️ **PostgreSQL** (AWS RDS, encrypted, deletion protection enabled) as the primary database
-- 🔐 **AWS Cognito** for authentication — TOTP + Email OTP MFA, 1-hour token expiry
+- 🎙️ **Whisper AI** transcription microservice (Python, faster-whisper, deployed as separate Railway service)
+- 🔍 **Pinecone** vector search for intelligent CPT/ICD medical code matching
+- 🔐 **AWS Cognito** authentication with TOTP MFA, token rotation on refresh, 1-hour access token expiry
 - 🏥 EDI claims formatting and billing workflow automation
 - 🔒 HIPAA compliance: audit logging, httpOnly cookies, security error handling, OWASP + Semgrep static analysis
-- 🐳 **Dockerized** services for consistent deployment across environments
+- 🧪 Playwright E2E test suite + Jest backend security tests
+- 🐳 **Dockerized** services, deployed across 3 Railway services (frontend, backend, Whisper)
 
 **AWS Production Controls (verified):**
 
@@ -93,6 +99,25 @@ A modular **Claude AI agent** built with a skills architecture, persistent memor
 - 🧠 Short-term memory with automatic pruning
 - 🔒 Security-first design: input validation, least privilege, no sensitive data logging
 - ⚡ PowerShell skill with command allowlist and output sanitization
+
+-----
+
+### 🖥️ Self-Hosted AI Stack
+
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+
+A personal self-hosted AI infrastructure stack for running and routing LLM models with zero recurring cost.
+
+**What I Built:**
+
+- 🦙 Ollama on local Windows PC (RTX 3050) for on-device model inference
+- 🌐 Open WebUI hosted on a DigitalOcean droplet as the primary interface
+- ☁️ On-demand AWS EC2 GPU instances for heavier workloads
+- 🤖 Telegram bot interface via OpenClaw for remote model access from anywhere
+- 💸 Free cloud-routed models as fallback to minimize compute costs
 
 -----
 
@@ -125,7 +150,6 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 
 ### 🎯 In Progress
 
-![CRTA](https://img.shields.io/badge/Pentester%20Academy-CRTA-orange?style=for-the-badge&logo=security&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-AI%20Solution%20Architect-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 </div>
@@ -163,19 +187,23 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 - AWS KMS key management with auto-rotation policies
 - CloudTrail multi-region audit logging and log file validation
 - RDS encryption, deletion protection, and secure configuration
-- Cognito MFA configuration (TOTP + Email OTP)
+- Cognito MFA configuration (TOTP) with token rotation on refresh
 - S3 security hardening (public access policies, KMS upload enforcement, access logging)
+- Multi-service Railway deployments (frontend, backend, AI microservices)
+- Cloudflare Tunnel configuration and domain routing
 - Azure & AWS security services and cloud infrastructure
 - Docker container management and WSL2 environments
 - Linux/Windows system administration and hardening
 - Network security architecture and segmentation
 - RBAC vs. ABAC identity and access management
+- Self-hosted AI infrastructure (Ollama, Open WebUI, EC2 GPU instances)
 
 </details>
 
@@ -186,6 +214,7 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
@@ -194,10 +223,11 @@ Hands-on Azure security lab implementing enterprise-grade network controls from 
 
 - Security automation and scripting
 - REST API development (Express/TypeScript, Flask)
-- Frontend development with React + TypeScript
+- Frontend development with Next.js + TypeScript
 - AI agent design and workflow engineering
 - Git workflow management, branching strategies, and PR review
 - GitHub Actions CI/CD (secret scanning, dependency auditing, Semgrep SAST)
+- E2E testing with Playwright, backend security testing with Jest
 
 </details>
 
@@ -240,7 +270,7 @@ current_focus = {
     "penetration_testing": ["Web app security", "CTF challenges", "OWASP Top 10", "Bug bounty hunting"],
     "grc": ["Risk assessment", "Compliance frameworks", "HIPAA Security Rule / AWS evidence collection"],
     "automation": ["AI agent workflows", "Security orchestration", "Python scripting"],
-    "cloud_security": ["AWS KMS & CloudTrail", "Cognito MFA", "RDS encryption", "Cloud compliance"],
+    "cloud_security": ["AWS KMS & CloudTrail", "Cognito MFA", "RDS encryption", "Railway deployments"],
 }
 ```
 
@@ -264,5 +294,5 @@ I'm always open to connecting with fellow security enthusiasts, discussing proje
 </div>
 
 <div align="center">
-  <i>"Security is not a product, but a process." - Bruce Schneier</i>
+  <i>"Security is not a product, but a process." — Bruce Schneier</i>
 </div>
