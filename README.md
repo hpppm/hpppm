@@ -16,7 +16,7 @@
 
 ## 🎓 About Me
 
-I'm a cybersecurity student at **Gannon University** (graduating May 2026), passionate about breaking things to understand how to protect them better. My interests lie at the intersection of **penetration testing**, **governance, risk, and compliance (GRC)**, and **AI-powered security automation**.
+I'm a cybersecurity student at **Gannon University** (graduating May 2026), passionate about breaking things to understand how to protect them better. My interests lie at the intersection of **penetration testing**, **governance, risk, and compliance (GRC)**, and **AI**.
 
 When I'm not in class, you'll find me:
 - 🔍 Testing web apps for vulnerabilities
